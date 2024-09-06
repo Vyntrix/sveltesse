@@ -8,7 +8,7 @@
 
 <br>
 
-> **Note**: This template is inspired by [Vitesse](https://github.com/antfu-collective/vitesse) for Vue
+> **Note**: This template is highly inspired by [Vitesse](https://github.com/antfu-collective/vitesse) for Vue
 
 <br>
 
