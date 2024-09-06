@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/7705a8a0-5888-4494-a8aa-8c494c08cc8b" alt="Sveltesse - Opinionated Vite Starter Template" width="600"/>
+  <img src="https://github.com/user-attachments/assets/62406606-e77a-4069-9a97-7f69784ac12e" alt="Sveltesse - Opinionated Vite Starter Template" width="600"/>
 </p>
 
 <p align="center">
@@ -8,7 +8,7 @@
 
 <br>
 
-> **Note**: This template is highly inspired by [Vitesse](https://github.com/antfu-collective/vitesse) for Vue
+> **Note**: This template is highly inspired by [Vitesse](https://github.com/antfu-collective/vitesse) for Vue by [Antfu](https://github.com/antfu)
 
 <br>
 
