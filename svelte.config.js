@@ -35,6 +35,11 @@ const config = {
 	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
 
 	kit: {
+    prerender: {
+      entries: [
+        'hi/[name]',
+      ]
+    },
 		adapter: adapter({
       pages: 'build',
       assets: 'build',
