@@ -18,7 +18,7 @@
 
 - 🗂 [Easy routing](./src/routes)
 
-- 📦 [Components](./src/components)
+- 📦 [Components](./src/lib/components)
 
 - 🎨 [UnoCSS](https://github.com/antfu/unocss) - the instant on-demand atomic CSS engine
 
