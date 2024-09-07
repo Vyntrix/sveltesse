@@ -13,7 +13,7 @@
   <p/>
 <br>
 
-> **Note**: This template is highly inspired by [Vitesse](https://github.com/antfu-collective/vitesse) for Vue by [Antfu](https://github.com/antfu)
+> **Note**: This template is highly inspired by [Vitesse](https://github.com/antfu-collective/vitesse) for Vue by [Antfu](https://github.com/antfu). Please feel free to open Pull Requests for improvements!
 
 <br>
 
