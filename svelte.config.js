@@ -37,7 +37,7 @@ const config = {
 	kit: {
     prerender: {
       entries: [
-        'hi/[name]',
+        '/hi/[name]',
       ]
     },
 		adapter: adapter({
