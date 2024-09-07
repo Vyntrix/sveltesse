@@ -1,10 +1,8 @@
-import adapter from '@sveltejs/adapter-static'
+import adapter from '@sveltejs/adapter-netlify'
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte'
 
 import { mdsvex, escapeSvelte } from "mdsvex"
 import { getSingletonHighlighter } from 'shiki'
-
-const dev = process.argv.includes('dev')
 
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexOptions = {
@@ -35,21 +33,10 @@ const config = {
 	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
 
 	kit: {
-    prerender: {
-      entries: [
-        '/hi/[name]',
-      ]
-    },
 		adapter: adapter({
-      pages: 'build',
-      assets: 'build',
-      fallback: undefined,
-      precompress: false,
-      strict: true,
-    }),
-    paths: {
-      base: dev ? '' : process.env.BASE_PATH,
-    }
+      edge: false,
+      split: false,
+    })
 	}
 }
 
