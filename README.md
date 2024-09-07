@@ -8,6 +8,10 @@
 
 <br>
 
+<p align="center">
+  <a href="https://sveltesse.netlify.app/">Live Demo</a>
+<br>
+
 > **Note**: This template is highly inspired by [Vitesse](https://github.com/antfu-collective/vitesse) for Vue by [Antfu](https://github.com/antfu)
 
 <br>
